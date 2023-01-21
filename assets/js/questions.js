@@ -2904,26 +2904,33 @@ var autovalues = [
     ],
     auto18 = [
         q1 = {
-            text: 'La libreria d\'ausilio vista a lezione per lanciare comandi in Python su shell si chiama...',
+            text: 'Cos\'è Databricks?',
             answers: [
-                'cmd',
-                'path',
-                'exe',
-                'process',
-                'subprocess'
+                'Una piattaforma per l\'analisi dei dati',
+                'Un\'IDE per programmare online in Processing',
+                'Un algoritmo di Machine Learning per l\'analisi dei dati',
+                'Una soluzione che permette il calcolo parallelizzato'
             ],
-            right: 'subprocess'
+            right: [
+                'Una piattaforma per l\'analisi dei dati',
+                'Una soluzione che permette il calcolo parallelizzato'
+            ]
         },
         q2 = {
-            text: 'La libreria vista a lezione per la gestione del filesystem in Python si chiama...',
+            text: 'Riguardo ai notebook Databricks...',
             answers: [
-                'ls',
-                'fs',
-                'os',
-                'dir',
-                'c:\\'
+                'Supportano il versioning',
+                'Possono contenere blocchi indipendenti scritti con linguaggi diversi',
+                'Supportano una programmazione visuale per blocchi e diagrammi',
+                'Possono essere modificati in contemporanea da più utenti',
+                'E\' possibiele modificarli anche con il cluster spento'
             ],
-            right: 'os'
+            right: [
+                'Supportano il versioning',
+                'Possono contenere blocchi indipendenti scritti con linguaggi diversi',
+                'Possono essere modificati in contemporanea da più utenti',
+                'E\' possibiele modificarli anche con il cluster spento'
+            ]
         },
         q3 = {
             text: 'In ffmpeg, qual è il flag utilizzato per indicare il numero di canali di un file audio da convertire?',
@@ -2948,86 +2955,65 @@ var autovalues = [
             right: '-ar'
         },
         q5 = {
-            text: 'Quale fra queste è la funzione che esegue il comando cmdffmpeg?',
+            text: 'Il dataset UrbanSound8K mostrato a lezione...',
             answers: [
-                'os.exec(cmdffmpeg)',
-                'os.call(cmdffmpeg)',
-                'os.system(cmdffmpeg)',
-                'sp.run(cmdffmpeg)',
-                'sp.os(cmdffmpeg)',
-                'sp.call(cmdffmpeg)'
-            ],
-            right: 'sp.call(cmdffmpeg)'
-        },
-        q6 = {
-            text: 'La libreria vista a lezione per leggere i file WAVE in Python si chiama...',
-            answers: [
-                'wave',
-                'audiolib',
-                'scykit',
-                'media',
-                'Nessuna delle precedenti'
-            ],
-            right: 'Nessuna delle precedenti'
-        },
-        q7 = {
-            text: 'Quale fra queste è la funzione Python vista a lezione per leggere un file WAVE?',
-            answers: [
-                'wave.play()',
-                'wavfile.play()',
-                'wave.read()',
-                'wavfile.read()',
-                'audio.execute()'
-            ],
-            right: 'wavfile.read()'
-        },
-        q8 = {
-            text: 'Quali fra questi valori sono restituiti dalla funzione Python vista a lezione per leggere un file WAVE?',
-            answers: [
-                'samplerate',
-                'frequency',
-                'data',
-                'volume',
-                'peak'
+                'Conta 10 classi',
+                'Conta 5 classi',
+                'E\' formato da campioni di tracce sonore con vari sample rate',
+                'Presenta tutti i campioni di tracce sonore con 2 canali (stereo)'
             ],
             right: [
-                'samplerate',
-                'data'
+                'Conta 10 classi',
+                'E\' formato da campioni di tracce sonore con vari sample rate'
             ]
         },
-        q9 = {
-            text: 'La libreria vista a lezione per creare grafici in Python si chiama',
+        q6 = {
+            text: 'Quali sono gli approcci principali per l’audio recognition mostrati durante il seminario su Databricks:',
             answers: [
-                'lib.pyplot',
-                'plotlib.pyplot',
-                'matplotlib.pyplot',
-                'mediamatplotlib.pyplot',
-                'pyplot.pyplot'
+                'Spectogram',
+                'Mel-Spectogram',
+                'MFCC',
+                'Phase-Shifting',
+                'Block Enhancing',
+                'Advanced Fourier Transform',
+                'Convolutional Neural Network'
             ],
-            right: 'matplotlib.pyplot'
+            right: [
+                'Spectogram',
+                'Mel-Spectogram',
+                'MFCC',
+                'Convolutional Neural Network'
+            ]
         },
-        q10 = {
-            text: 'La libreria vista a lezione per calcolare la FFT in Python si chiama...',
+        q7 = {
+            text: 'Riguardo ai cluster Databricks...',
             answers: [
-                'scipy.fft',
-                'scipy.fourier',
-                'scipy.s2f',
-                'scipy.fftpack',
-                'scipy.freq'
+                'I Worker Nodes non possono avere configurazioni diverse dai loro Driver Nodes',
+                'E\' possibile creare una configurazione con GPU',
+                'Si puo\' impostare un timeout per inattivita\'',
+                'Non è possibile installare librerie a livello di cluster'
             ],
-            right: 'scipy.fftpack'
+            right: [
+                'E\' possibile creare una configurazione con GPU',
+                'Si puo\' impostare un timeout per inattivita\''
+            ]
         },
-        q11 = {
-            text: 'La libreria vista a lezione per calcolare la IFFT in Python si chiama...',
+        q8 = {
+            text: 'Quali sono le proprieta\' dell\'audio, mostrate durante il seminario su Databricks, su cui fare preprocessing?',
             answers: [
-                'scipy.ifft',
-                'scipy.ifourier',
-                'scipy.f2s',
-                'scipy.ifftpack',
-                'scipy.ifreq',
-                'scipy.fftpack'
+                'Sample-Rate',
+                'Bit-Depth',
+                'Audio Theme',
+                'Max-Amplitude',
+                'BPM',
+                'Duration'
             ],
-            right: 'scipy.fftpack'
+            right: [
+                'Sample-Rate',
+                'Bit-Depth',
+                'Max-Amplitude',
+                'Duration'
+            ]
         }
     ],
     auto19 = [
