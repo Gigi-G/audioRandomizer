@@ -3018,94 +3018,120 @@ var autovalues = [
     ],
     auto19 = [
         q1 = {
-            text: 'Cosa sono il nodo e l\'antinodo di un\'onda stazionaria?',
+            text: 'Quali di queste sono caratteristiche di una delay-tolerant network (DTN)?',
             answers: [
-                'Il nodo è una zona di equilibrio stabile e l\'antinodo di equilibrio instabile',
-                'Il nodo è una zona a pressione minima e l\'antinodo a pressione massima',
-                'Il nodo è una zona di equilibrio instabile e l\'antinodo di equilibrio stabile',
-                'Il nodo è una zona a pressione massima e l\'antinodo a pressione minima'
+                'I collegamenti tra i nodi sono spesso instabili',
+                'Si basa sullo stack TCP/IP',
+                'Collega le università italiane',
+                'I ritardi di trasmissione possono raggiungere l\'ordine dei minuti'
             ],
             right: [
-                'Il nodo è una zona di equilibrio stabile e l\'antinodo di equilibrio instabile',
-                'Il nodo è una zona a pressione minima e l\'antinodo a pressione massima'
+                'I collegamenti tra i nodi sono spesso instabili',
+                'I ritardi di trasmissione possono raggiungere l\'ordine dei minuti'
             ]
         },
         q2 = {
-            text: 'Come fu sfruttato il "pop" anomalo del chip SID da parte dei musicisti?',
+            text: 'Quali di questi sono elementi caratteristici di una delay-tolerant network (DTN)?',
             answers: [
-                'Per simulare un \'quarto\' canale',
-                'Per riprodurre delle note come se fossero suonate da degli strumenti a percussione',
-                'Per riprodurre frequenze non comprese nel range [16,4000] che aveva a disposizione il chip',
-                'Per segnalare errori hardware'
+                'Trasferimento di custodia',
+                'Convergence layers',
+                'Timbri identificativi per ogni nodo',
+                'Frequenza di broadcast'
             ],
             right: [
-                'Per simulare un \'quarto\' canale',
-                'Per riprodurre delle note come se fossero suonate da degli strumenti a percussione'
+                'Trasferimento di custodia',
+                'Convergence layers'
             ]
         },
         q3 = {
-            text: 'Cos\'è il T60?',
+            text: 'Cos\'è un \"timbro\" all\'interno di netdemic, la simulazione di delay-tolerant network (DTN)?',
             answers: [
-                'Il tempo in cui l\'energia del suono decade di 60 dB',
-                'Una unità temporale che ha a che fare con i deciBel',
-                'Il tempo occupato da 60 secondi',
-                'Il tempo in cui l\'energia del suono passa dal 100 al 60% di intensità',
+                'Un equalizzatore parametrico',
+                'Un\'onda formata dal campionamento di 22000 valori di frequenza',
+                'Il numero identificativo di un pacchetto',
+                'L\'impronta digitale univoca di un nodo, che lo distingue dagli altri' 
             ],
             right: [
-                'Il tempo in cui l\'energia del suono decade di 60 dB',
-                'Una unità temporale che ha a che fare con i deciBel'
+                'Un\'onda formata dal campionamento di 22000 valori di frequenza',
+                'L\'impronta digitale univoca di un nodo, che lo distingue dagli altri'
             ]
         },
         q4 = {
-            text: 'Quali di questi sono gradi della scala diatonica?',
+            text: 'In ERAS, quali informazioni trasporta la componente armonica di un segnale audio?',
             answers: [
-                'Tonica',
-                'Dominante',
-                'Maggiore',
-                'Diminuita',
+                'Melodia',
+                'Suono impulsivo',
+                'Ritmo',
+                'Suono persistente'
             ],
             right: [
-                'Tonica',
-                'Dominante'
+                'Melodia',
+                'Suono persistente'
             ]
         },
         q5 = {
-            text: 'Il sensore discusso nel progetto 08...',
+            text: 'Cosa descrive meglio ERAS?',
             answers: [
-                'è a ultrasuoni',
-                'lavora in un range di distanze [2- 400] cm',
-                'è a infrarossi',
-                'lavora in un range di distanze [2- 400] mm'
+                'E\' un algoritmo di Machine Learning',
+                'E\' un algoritmo di Deep Learning',
+                'E\' un identificatore di emozioni percepite da un segnale audio',
+                'E\' un programma per l\'audio editing' 
             ],
             right: [
-                'è a ultrasuoni',
-                'lavora in un range di distanze [2- 400] cm'
+                'E\' un algoritmo di Machine Learning',
+                'E\' un identificatore di emozioni percepite da un segnale audio'
             ]
         },
         q6 = {
-            text: 'Quale di questi formati audio è supportato dal tipo SoundFile di Processing?',
+            text: 'Quali di queste sono Audio features in ERAS?',
             answers: [
-                'MP3',
-                'AIF/AIFF',
-                'PCM',
-                'FLAC'
+                'Zero crossing rate (ZCR)', 
+                'Spectral coefficient',
+                'Mel-Frequency Cepstrum Coefficients (MFCCs)',
+                'Mel-Frequency Centroid Covariance (MFCCs)',
             ],
             right: [
-                'MP3',
-                'AIF/AIFF'
+                'Zero crossing rate (ZCR)',
+                'Mel-Frequency Cepstrum Coefficients (MFCCs)'
             ]
         },
         q7 = {
-            text: 'Cosa succede quando una traccia passa attraverso un filtro passa basso?',
+            text: 'Quali sono le principali cause di perdita di trasmissione del suono nell\'acqua?',
             answers: [
-                'La traccia presenterà in uscita una attenuazione delle frequenze maggiori della frequenza di taglio',
-                'Il condensatore fornisce un percorso verso terra che provoca un\'attenuazione dei segnali a bassa frequenza',
-                'La traccia presenterà in uscita una attenuazione delle frequenze minori della frequenza di Taglio',
-                'Non succede nulla'
+                'Perdita dovuta all\'anomalia termica',
+                'La diminuzione di velocita\' del suono in acqua sotto determinate condizioni',
+                'Lo scambio tra energia acustica e energia termica',
+                'Perdita dovuta alla divergenza per propagazione sferica e sferico-cilindrica'
             ],
             right: [
-                'La traccia presenterà in uscita una attenuazione delle frequenze maggiori della frequenza di taglio',
-                'Il condensatore fornisce un percorso verso terra che provoca un\'attenuazione dei segnali a bassa frequenza'
+                'Lo scambio tra energia acustica e energia termica',
+                'Perdita dovuta alla divergenza per propagazione sferica e sferico-cilindrica'
+            ]
+        },
+        q8 = {
+            text: 'Per quanto riguarda la velocità del suono in acqua, un grafo SVP:',
+            answers: [
+                'Le variazioni principali sono nella parte piu\' in alto del grafo',
+                'Le variazioni principali sono nella parte piu\' in basso del grafo',
+                'Non tiene conto delle variazioni di orario nella giornata oppure di stagione',
+                'Misura la velocità del suono in funzione della profondita\''
+            ],
+            right: [
+                'Le variazioni principali sono nella parte piu\' in alto del grafo',
+                'Misura la velocità del suono in funzione della profondita\''
+            ]
+        },
+        q9 = {
+            text: 'La shadow zone, cioe\' l\'anomalia termica:',
+            answers: [
+                'E\' una regione nella quale non arriva il suono in quanto esso viene rifratto in altre direzioni',
+                'Si trova nella profondita\' ottimale nella quale i sottomarini dovrebbero operare',
+                'E\' incalcolabile',
+                'E\' una zona della quale il suono non puo\' uscire perche\' rimane \"intrappolato\"'
+            ],
+            right: [
+                'E\' una regione nella quale non arriva il suono in quanto esso viene rifratto in altre direzioni',
+                'Si trova nella profondita\' ottimale nella quale i sottomarini dovrebbero operare'
             ]
         }
     ]
